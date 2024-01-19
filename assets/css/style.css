@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Rubik+Moonrocks&family=Silkscreen&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#menuStart {
+    position: absolute;
+    right: calc(50% - 150px);
+    top: calc(50% - 200px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Rubik Moonrocks;
+    font-size: xx-large;
+    color: whitesmoke;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    gap: 20px;
+}
+
+#buttonStart {
+
+    width: 50%;
+    border-radius: 20px;
+    background: rgba(255, 250, 250, 0.5);
+    font-family: Rubik Moonrocks;
+    margin-left: 25%;
+}
+
+#end {
+    padding: 4px;
+    border-radius: 20px;
+    background: rgba(255, 250, 250, 0.5);
+    font-family: Rubik Moonrocks;
+   
+}
+
+#headerContainer {
+    font-family: Rubik Moonrocks;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+#title {
+    color: whitesmoke;
+
+}
+
+#points {
+    color: whitesmoke;
+}
+
+body {
+
+    background-image: url(/assets/images/michael_jackson.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    height: 120px;
+}
+
+main {
+
+    height: calc(100% - 120px);
+    position: relative;
+}
+
+#grinch {
+    top: 0;
+    left: 0;
+    width: 175px;
+    position: absolute;
+    cursor: pointer;
+    user-select: none;
+    
+}
+
+@media (max-width: 900px){
+    
+    #grinch {
+        top: 0;
+        left: 0;
+        width: 100px;
+        position: absolute;
+        cursor: pointer;
+        user-select: none;
+    }
+}
