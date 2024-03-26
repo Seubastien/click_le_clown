@@ -61,7 +61,7 @@
 
 body {
 
-    background-image: url(/assets/images/michael_jackson.png);
+    background-image: url(./assets/images/michael_jackson.png);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
